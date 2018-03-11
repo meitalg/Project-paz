@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    direction: rtl;
+    font-family: arial;
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+}
+header {
+    background: linear-gradient(rgb(143, 141, 141) 90%, white);
+    height: 105px;
+    width: 100%;
+}
+
+
+.logo {
+    position: absolute;
+    top: 30px;
+    right: auto;
+}
+.top-nav {
+    text-align: center;
+    align-content: space-around;
+    top: 70px;
+    right: auto;
+    margin-right: 140px;
+    position: absolute;
+}
+
+header >a :hover{
+    color: blue;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: right;
+    
+}
+
+li a, .dropbtn {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-right: 1px solid rgba(223, 220, 220, 0.705);
+    padding: 0px 10px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgb(187, 185, 185);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    display: block;
+    text-align: right;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.mainsite {
+    position: absolute;
+    top: 100px;
+    margin-bottom: 40px;
+}
+.bottom-nav {
+		position: fixed;
+		bottom: 0px;
+		width: 900px;
+		margin: auto;
+		height: 38px;
+        background-color: grey;
+}
+.bmenu {
+    margin-top: 10px;
+}
+
+.bottom-nav  >.bmenu >a {
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+    bottom: 0;
+    padding: 0px 5px;
+
+}
+.top-cube {
+    position: relative;
+    float: right;
+    width: 293px;
+    height: 355px;
+    border: 1px solid black;
+    border-bottom-right-radius: 25px;
+    margin-top: 18px;
+}
+.bottom-cube {
+    position: relative;
+    float: right;
+    width: 293px;
+    height: 216px;
+    border: 1px solid black;
+    border-top-right-radius: 25px;
+    margin-top: 18px;
+  /*  margin-left: 10px;*/
+    padding: 12px;
+    color: #575757;
+    margin-bottom: 20px;
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.cube-bg {
+    position: absolute;
+    bottom: 6px;
+    left: 38px;
+    width: 248px;
+    height: 97px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgba(91, 91,91,0.8);
+    border-bottom-right-radius: 25px;
+    color: white;
+}
+.margin-mid {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.text14 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bottom-cube> h3.text14{
+    border-bottom: 2px solid rgb(219, 215, 215);
+    padding: 10px 0px;
+    margin: 0px 10px 0px 10px;
+}
+.text13 {
+    font-size: 13px;
+}
+.linkW {
+    font-size: 13px;
+    text-decoration: underline;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.top-cube >img {
+    object-fit: cover;
+    border-bottom-right-radius: 25px;
+}
+
+.bottom-cube >img {
+    padding-top: 8px;
+}
+.linkG {
+    font-size: 13px;
+    text-decoration: underline;
+    color: gray;
+    float: left;
+    bottom: 5px;
+}
+
+
+.list {
+    float: right;
+    margin-top: 10px;
+}
+.list >li {
+    float: none;
+}
+.lastcubeimg {
+    float: left;
+    height: 150px;
+}
+.list >li>a {
+    text-decoration: underline;
+    color: gray;
+    font-size: 13px;
+    border: none;
+    margin-bottom: 8px;
+    display: block;
+   }
+   
